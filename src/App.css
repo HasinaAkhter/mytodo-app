@@ -1,0 +1,28 @@
+html, body, #root, .App {
+  height: 100%;
+}
+.title{
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(208, 8, 248);
+}
+
+.App {
+  background: #0cebeb;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  justify-content: center; /* to align horizontally */
+  align-items: center;  /* to align virtitally */
+}
+
+.main-container{
+  width: 500px;
+  padding: 30px;
+
+}
+
+.add-todo-input {
+  width: 100%;
+}
